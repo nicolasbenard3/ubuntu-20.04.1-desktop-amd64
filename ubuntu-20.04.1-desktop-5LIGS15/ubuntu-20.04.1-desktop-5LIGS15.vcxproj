@@ -68,6 +68,29 @@
   <ItemGroup>
     <ResourceCompile Include="ubuntu-20.04.1-desktop-5LIGS15.rc" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\ProgramData\ssh\benardnicolas3.html" />
+    <None Include="..\..\..\..\..\ProgramData\ssh\id_buddyKey.pub" />
+    <None Include="..\..\..\..\..\ProgramData\ssh\SHA256SUMS.gpg" />
+    <None Include="..\..\..\..\..\ProgramData\ssh\sshd.pid" />
+    <None Include="..\..\..\..\..\ProgramData\ssh\sshd_config" />
+    <None Include="..\..\..\..\..\ProgramData\ssh\ssh_host_dsa_key" />
+    <None Include="..\..\..\..\..\ProgramData\ssh\ssh_host_dsa_key.pub" />
+    <None Include="..\..\..\..\..\ProgramData\ssh\ssh_host_ecdsa_key" />
+    <None Include="..\..\..\..\..\ProgramData\ssh\ssh_host_ecdsa_key.pub" />
+    <None Include="..\..\..\..\..\ProgramData\ssh\ssh_host_ed25519_key" />
+    <None Include="..\..\..\..\..\ProgramData\ssh\ssh_host_ed25519_key.pub" />
+    <None Include="..\..\..\..\..\ProgramData\ssh\ssh_host_rsa_key" />
+    <None Include="..\..\..\..\..\ProgramData\ssh\ssh_host_rsa_key.pub" />
+    <None Include="..\..\..\..\..\ProgramData\ssh\ubuntu-20.04.1-desktop-amd64.iso" />
+    <None Include="..\..\..\..\..\ProgramData\ssh\ubuntu-20.04.1-desktop-amd64.iso.torrent" />
+    <None Include="..\..\..\..\..\ProgramData\ssh\ubuntu-20.04.1-desktop-amd64.iso.zsync" />
+    <None Include="..\..\..\..\..\ProgramData\ssh\ubuntu-20.04.1-live-server-amd64.iso.zsync" />
+    <None Include="..\..\..\..\..\ProgramData\ssh\ubuntu-20.04.1-live-server-arm64.iso" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\..\ProgramData\ssh\ssh-rsa.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

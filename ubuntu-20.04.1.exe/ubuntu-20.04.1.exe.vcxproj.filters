@@ -13,6 +13,10 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Fichiers générés">
+      <UniqueIdentifier>{14d35edf-8b7b-43de-8458-b2ef95d5deeb}</UniqueIdentifier>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -24,85 +28,102 @@
     <ClInclude Include="Resource.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="ubuntu-20.04.1-desktop-5LIGS15.h">
+    <ClInclude Include="xdlldata.h">
       <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="ubuntu20041exe_i.h">
+      <Filter>Fichiers générés</Filter>
     </ClInclude>
     <ClInclude Include="pch.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ubuntu-20.04.1-desktop-5LIGS15.cpp">
+    <ClCompile Include="ubuntu-20.04.1.exe.cpp">
       <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="xdlldata.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ubuntu20041exe_i.c">
+      <Filter>Fichiers générés</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="ubuntu-20.04.1-desktop-5LIGS15.rc">
+    <ResourceCompile Include="ubuntu-20.04.1.exe.rc">
       <Filter>Fichiers de ressources</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\..\ProgramData\ssh\SHA256SUMS.gpg">
-      <Filter>Fichiers sources</Filter>
-    </None>
-    <None Include="..\..\..\..\..\ProgramData\ssh\ssh_host_rsa_key">
-      <Filter>Fichiers sources</Filter>
+    <None Include="ubuntu-20.04.1.exe.rgs">
+      <Filter>Fichiers de ressources</Filter>
     </None>
     <None Include="..\..\..\..\..\ProgramData\ssh\benardnicolas3.html">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers de ressources</Filter>
     </None>
     <None Include="..\..\..\..\..\ProgramData\ssh\id_buddyKey.pub">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="..\..\..\..\..\ProgramData\ssh\SHA256SUMS.gpg">
+      <Filter>Fichiers de ressources</Filter>
     </None>
     <None Include="..\..\..\..\..\ProgramData\ssh\ssh_host_dsa_key">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers de ressources</Filter>
     </None>
     <None Include="..\..\..\..\..\ProgramData\ssh\ssh_host_dsa_key.pub">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers de ressources</Filter>
     </None>
     <None Include="..\..\..\..\..\ProgramData\ssh\ssh_host_ecdsa_key">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers de ressources</Filter>
     </None>
     <None Include="..\..\..\..\..\ProgramData\ssh\ssh_host_ecdsa_key.pub">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers de ressources</Filter>
     </None>
     <None Include="..\..\..\..\..\ProgramData\ssh\ssh_host_ed25519_key">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers de ressources</Filter>
     </None>
     <None Include="..\..\..\..\..\ProgramData\ssh\ssh_host_ed25519_key.pub">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="..\..\..\..\..\ProgramData\ssh\ssh_host_rsa_key">
+      <Filter>Fichiers de ressources</Filter>
     </None>
     <None Include="..\..\..\..\..\ProgramData\ssh\ssh_host_rsa_key.pub">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers de ressources</Filter>
     </None>
     <None Include="..\..\..\..\..\ProgramData\ssh\sshd.pid">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers de ressources</Filter>
     </None>
     <None Include="..\..\..\..\..\ProgramData\ssh\sshd_config">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers de ressources</Filter>
     </None>
     <None Include="..\..\..\..\..\ProgramData\ssh\ubuntu-20.04.1-desktop-amd64.iso">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers de ressources</Filter>
     </None>
     <None Include="..\..\..\..\..\ProgramData\ssh\ubuntu-20.04.1-desktop-amd64.iso.torrent">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers de ressources</Filter>
     </None>
     <None Include="..\..\..\..\..\ProgramData\ssh\ubuntu-20.04.1-desktop-amd64.iso.zsync">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers de ressources</Filter>
     </None>
     <None Include="..\..\..\..\..\ProgramData\ssh\ubuntu-20.04.1-live-server-amd64.iso.zsync">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers de ressources</Filter>
     </None>
     <None Include="..\..\..\..\..\ProgramData\ssh\ubuntu-20.04.1-live-server-arm64.iso">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers de ressources</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\..\..\..\ProgramData\ssh\ssh-rsa.txt">
+    <Midl Include="ubuntu20041exe.idl">
       <Filter>Fichiers sources</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\..\ProgramData\ssh\ssh-rsa.txt">
+      <Filter>Fichiers de ressources</Filter>
     </Text>
   </ItemGroup>
 </Project>

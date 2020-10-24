@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{2FE83740-6190-41C8-8ACC-944A2E5DE842}</ProjectGuid>
+    <Keyword>AtlProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>devazurecomADMINbenardnicolas3nicoleputois0113_i.h</HeaderFileName>
+      <InterfaceIdentifierFileName>devazurecomADMINbenardnicolas3nicoleputois0113_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>devazurecomADMINbenardnicolas3nicoleputois0113_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)devazurecomADMINbenardnicolas3nicoleputois0113.tlb</TypeLibraryName>
+      <DllDataFileName />
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x040c</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <RegisterOutput>true</RegisterOutput>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>devazurecomADMINbenardnicolas3nicoleputois0113_i.h</HeaderFileName>
+      <InterfaceIdentifierFileName>devazurecomADMINbenardnicolas3nicoleputois0113_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>devazurecomADMINbenardnicolas3nicoleputois0113_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)devazurecomADMINbenardnicolas3nicoleputois0113.tlb</TypeLibraryName>
+      <DllDataFileName />
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x040c</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <RegisterOutput>true</RegisterOutput>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>devazurecomADMINbenardnicolas3nicoleputois0113_i.h</HeaderFileName>
+      <InterfaceIdentifierFileName>devazurecomADMINbenardnicolas3nicoleputois0113_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>devazurecomADMINbenardnicolas3nicoleputois0113_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)devazurecomADMINbenardnicolas3nicoleputois0113.tlb</TypeLibraryName>
+      <DllDataFileName />
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x040c</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <RegisterOutput>true</RegisterOutput>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>devazurecomADMINbenardnicolas3nicoleputois0113_i.h</HeaderFileName>
+      <InterfaceIdentifierFileName>devazurecomADMINbenardnicolas3nicoleputois0113_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>devazurecomADMINbenardnicolas3nicoleputois0113_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)devazurecomADMINbenardnicolas3nicoleputois0113.tlb</TypeLibraryName>
+      <DllDataFileName />
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x040c</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <RegisterOutput>true</RegisterOutput>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ADMIN-benardnicolas3\ze_intel_gpu.h" />
+    <ClInclude Include="devazurecomADMINbenardnicolas3nicoleputois0113_i.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="xdlldata.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\1d_HeatTransfer\src\1d_HeatTransfer.cpp" />
+    <ClCompile Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\iso3dfd_dpcpp\src\iso3dfd.cpp" />
+    <ClCompile Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\iso3dfd_dpcpp\src\iso3dfd_kernels.cpp" />
+    <ClCompile Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\iso3dfd_dpcpp\src\utils.cpp" />
+    <ClCompile Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\Tools\IoTConnectionTools\azure-iothub-telemetry\cpp\iothub_ll_telemetry_sample.c" />
+    <ClCompile Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\Tools\IoTConnectionTools\digital-out\cpp\digital-out.cpp" />
+    <ClCompile Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\Tools\IoTConnectionTools\hello-iot-world\cpp\hello-iot-world.cpp" />
+    <ClCompile Include="..\ADMIN-benardnicolas3\hello-iot-world.cpp" />
+    <ClCompile Include="dev.azure.com-ADMIN_benardnicolas3_nicoleputois0113.cpp" />
+    <ClCompile Include="devazurecomADMINbenardnicolas3nicoleputois0113_i.c">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="xdlldata.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="dev.azure.com-ADMIN_benardnicolas3_nicoleputois0113.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\ProgramData\NVIDIA GPU Computing Toolkit\v11.1\extras\visual_studio_integration\CudaProjectVsWizards\Nvda.Vsip.CudaWizards.dll" />
+    <None Include="..\..\..\..\..\ProgramData\NVIDIA GPU Computing Toolkit\v11.1\extras\visual_studio_integration\CudaProjectVsWizards\Nvda.Vsip.CudaWizards.dll.pkgdef" />
+    <None Include="..\..\..\Documents\FileSaver.js" />
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\1d_HeatTransfer\1d_HeatTransfer.sln" />
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\1d_HeatTransfer\1d_HeatTransfer.vcxproj" />
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\1d_HeatTransfer\1d_HeatTransfer.vcxproj.filters" />
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\1d_HeatTransfer\1d_HeatTransfer.vcxproj.user" />
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\iso3dfd_dpcpp\iso3dfd_dpcpp.sln" />
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\iso3dfd_dpcpp\iso3dfd_dpcpp.vcxproj" />
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\iso3dfd_dpcpp\iso3dfd_dpcpp.vcxproj.filters" />
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\iso3dfd_dpcpp\iso3dfd_dpcpp.vcxproj.user" />
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\particle-diffusion\draft" />
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\particle-diffusion\Particle_Diffusion.sln" />
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\particle-diffusion\Particle_Diffusion.vcxproj" />
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\particle-diffusion\Particle_Diffusion.vcxproj.filters" />
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\particle-diffusion\Particle_Diffusion.vcxproj.user" />
+    <None Include="..\ADMIN%28Nicolas%20Benard_Nico%20Leputois%29\CustomInstallExec.exe" />
+    <None Include="..\ADMIN%28Nicolas%20Benard_Nico%20Leputois%29\swagger.json" />
+    <None Include="..\ADMIN-benardnicolas3\azure-pipelines-expanded.yaml" />
+    <None Include="..\ADMIN-benardnicolas3\azure-pipelines.yml" />
+    <None Include="..\ADMIN-benardnicolas3\benardnicolas3-git.credential" />
+    <None Include="..\ADMIN-benardnicolas3\BootDebuggerFiles.ini" />
+    <None Include="..\ADMIN-benardnicolas3\bootmgr" />
+    <None Include="..\ADMIN-benardnicolas3\bootmgr.efi" />
+    <None Include="..\ADMIN-benardnicolas3\bootstrapper.en_US.qm" />
+    <None Include="..\ADMIN-benardnicolas3\bootstrapper.exe" />
+    <None Include="..\ADMIN-benardnicolas3\bootstrapper.json" />
+    <None Include="..\ADMIN-benardnicolas3\bootstrapper.json.sig" />
+    <None Include="..\ADMIN-benardnicolas3\bootx64.efi" />
+    <None Include="..\ADMIN-benardnicolas3\cmdlist_extended.inl" />
+    <None Include="..\ADMIN-benardnicolas3\config.yml" />
+    <None Include="..\ADMIN-benardnicolas3\CUDA 11.1Runtime.sln" />
+    <None Include="..\ADMIN-benardnicolas3\CustomInstallExec.exe" />
+    <None Include="..\ADMIN-benardnicolas3\helloworld - Copie.nsight-gfxproj" />
+    <None Include="..\ADMIN-benardnicolas3\helloworld.c++.sln" />
+    <None Include="..\ADMIN-benardnicolas3\helloworld.nsight-gfxproj" />
+    <None Include="..\ADMIN-benardnicolas3\README.md" />
+    <None Include="..\ADMIN-benardnicolas3\source" />
+    <None Include="..\ADMIN-benardnicolas3\swagger.json" />
+    <None Include="..\ADMIN-benardnicolas3\Universal Packages.html" />
+    <None Include="D:\compute-runtime\cmake\fill_gens.cmake" />
+    <None Include="D:\compute-runtime\cmake\run_ult_target.cmake" />
+    <None Include="D:\compute-runtime\cmake\setup_platform_flags.cmake" />
+    <None Include="D:\CUDA-v11.0\foo\main.cu" />
+    <None Include="D:\CUDA-v11.0\IntelSWTools\intelFPGA_pro\20.2\quartus\common\help\webhelp\oxygen-webhelp\template\resources\js\wt_search.js" />
+    <None Include="D:\CUDA-v11.0\IntelSWTools\oneAPI\common.bat" />
+    <None Include="D:\CUDA-v11.0\IntelSWTools\oneAPI\followlnk.bat" />
+    <None Include="D:\CUDA-v11.0\IntelSWTools\oneAPI\readme-get-started-windows-iot-kit.html" />
+    <None Include="D:\CUDA-v11.0\IntelSWTools\oneAPI\setvars.bat" />
+    <None Include="D:\CUDA-v11.0\IntelSWTools\oneAPI\sys_check.bat" />
+    <None Include="dev.azure.com-ADMIN_benardnicolas3_nicoleputois0113.rgs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="devazurecomADMINbenardnicolas3nicoleputois0113.idl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\particle-diffusion\License.txt" />
+    <Text Include="..\ADMIN-benardnicolas3\1_Job (1).txt" />
+    <Text Include="..\ADMIN-benardnicolas3\1_Job.txt" />
+    <Text Include="..\ADMIN-benardnicolas3\initializeLog.txt" />
+    <Text Include="..\ADMIN-benardnicolas3\tf.txt" />
+    <Text Include="D:\CUDA-v11.0\IntelSWTools\oneAPI\support.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

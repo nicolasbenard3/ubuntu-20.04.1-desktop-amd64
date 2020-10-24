@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{f0b37bd5-446e-4ee3-811f-9678180a241e}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\..\ubuntu-20.04.1-desktop-amd64\benardnicolas3.html" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\..\ubuntu-20.04.1-desktop-amd64\id_buddyKey.pub" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\..\ubuntu-20.04.1-desktop-amd64\linux-debug.json" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\..\ubuntu-20.04.1-desktop-amd64\README.diskdefines" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\..\ubuntu-20.04.1-desktop-amd64\SHA256SUMS.gpg" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\..\ubuntu-20.04.1-desktop-amd64\sshd.pid" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\..\ubuntu-20.04.1-desktop-amd64\sshd_config" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\..\ubuntu-20.04.1-desktop-amd64\ssh_host_dsa_key" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\..\ubuntu-20.04.1-desktop-amd64\ssh_host_dsa_key.pub" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\..\ubuntu-20.04.1-desktop-amd64\ssh_host_ecdsa_key" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\..\ubuntu-20.04.1-desktop-amd64\ssh_host_ecdsa_key.pub" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\..\ubuntu-20.04.1-desktop-amd64\ssh_host_ed25519_key" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\..\ubuntu-20.04.1-desktop-amd64\ssh_host_ed25519_key.pub" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\..\ubuntu-20.04.1-desktop-amd64\ssh_host_rsa_key" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\..\ubuntu-20.04.1-desktop-amd64\ssh_host_rsa_key.pub" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\..\ubuntu-20.04.1-desktop-amd64\ubuntu-20.04.1-desktop-amd64.iso.torrent" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\..\ubuntu-20.04.1-desktop-amd64\ubuntu-20.04.1-desktop-amd64.iso.zsync" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\..\..\ubuntu-20.04.1-desktop-amd64\ubuntu-20.04.1-live-server-amd64.iso.zsync" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\Downloads\ubuntu-20.04.1-desktop-amd64.iso" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\..\Downloads\ubuntu-20.04.1-live-server-arm64.iso" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)..\..\..\..\..\ubuntu-20.04.1-desktop-amd64\md5sum.txt" />
+    <Text Include="$(MSBuildThisFileDirectory)..\..\..\..\..\ubuntu-20.04.1-desktop-amd64\ssh-rsa.txt" />
+  </ItemGroup>
+</Project>

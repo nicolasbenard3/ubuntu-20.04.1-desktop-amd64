@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers générés">
+      <UniqueIdentifier>{12807e2b-12da-4042-a2ca-9f6855aece9d}</UniqueIdentifier>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="xdlldata.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="devazurecomADMINbenardnicolas3nicoleputois0113_i.h">
+      <Filter>Fichiers générés</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ADMIN-benardnicolas3\ze_intel_gpu.h">
+      <Filter>Fichiers sources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dev.azure.com-ADMIN_benardnicolas3_nicoleputois0113.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="xdlldata.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="devazurecomADMINbenardnicolas3nicoleputois0113_i.c">
+      <Filter>Fichiers générés</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\Tools\IoTConnectionTools\hello-iot-world\cpp\hello-iot-world.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\Tools\IoTConnectionTools\digital-out\cpp\digital-out.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\Tools\IoTConnectionTools\azure-iothub-telemetry\cpp\iothub_ll_telemetry_sample.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\iso3dfd_dpcpp\src\iso3dfd.cpp">
+      <Filter>Fichiers de ressources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\iso3dfd_dpcpp\src\iso3dfd_kernels.cpp">
+      <Filter>Fichiers de ressources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\iso3dfd_dpcpp\src\utils.cpp">
+      <Filter>Fichiers de ressources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\1d_HeatTransfer\src\1d_HeatTransfer.cpp">
+      <Filter>Fichiers de ressources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ADMIN-benardnicolas3\hello-iot-world.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="dev.azure.com-ADMIN_benardnicolas3_nicoleputois0113.rc">
+      <Filter>Fichiers de ressources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dev.azure.com-ADMIN_benardnicolas3_nicoleputois0113.rgs">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="D:\CUDA-v11.0\foo\main.cu">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="D:\CUDA-v11.0\IntelSWTools\oneAPI\common.bat">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="D:\CUDA-v11.0\IntelSWTools\oneAPI\followlnk.bat">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="D:\CUDA-v11.0\IntelSWTools\oneAPI\readme-get-started-windows-iot-kit.html">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="D:\CUDA-v11.0\IntelSWTools\oneAPI\setvars.bat">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="D:\CUDA-v11.0\IntelSWTools\oneAPI\sys_check.bat">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="D:\CUDA-v11.0\IntelSWTools\intelFPGA_pro\20.2\quartus\common\help\webhelp\oxygen-webhelp\template\resources\js\wt_search.js">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="D:\compute-runtime\cmake\fill_gens.cmake">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="D:\compute-runtime\cmake\run_ult_target.cmake">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="D:\compute-runtime\cmake\setup_platform_flags.cmake">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="..\..\..\..\..\ProgramData\NVIDIA GPU Computing Toolkit\v11.1\extras\visual_studio_integration\CudaProjectVsWizards\Nvda.Vsip.CudaWizards.dll">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="..\..\..\..\..\ProgramData\NVIDIA GPU Computing Toolkit\v11.1\extras\visual_studio_integration\CudaProjectVsWizards\Nvda.Vsip.CudaWizards.dll.pkgdef">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\iso3dfd_dpcpp\iso3dfd_dpcpp.sln">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\iso3dfd_dpcpp\iso3dfd_dpcpp.vcxproj">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\iso3dfd_dpcpp\iso3dfd_dpcpp.vcxproj.filters">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\iso3dfd_dpcpp\iso3dfd_dpcpp.vcxproj.user">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\particle-diffusion\draft">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\particle-diffusion\Particle_Diffusion.sln">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\particle-diffusion\Particle_Diffusion.vcxproj">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\particle-diffusion\Particle_Diffusion.vcxproj.filters">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\particle-diffusion\Particle_Diffusion.vcxproj.user">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\1d_HeatTransfer\1d_HeatTransfer.sln">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\1d_HeatTransfer\1d_HeatTransfer.vcxproj">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\1d_HeatTransfer\1d_HeatTransfer.vcxproj.filters">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\1d_HeatTransfer\1d_HeatTransfer.vcxproj.user">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="..\ADMIN-benardnicolas3\azure-pipelines.yml">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="..\ADMIN-benardnicolas3\azure-pipelines-expanded.yaml">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="..\ADMIN-benardnicolas3\benardnicolas3-git.credential">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="..\ADMIN-benardnicolas3\BootDebuggerFiles.ini">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="..\ADMIN-benardnicolas3\bootmgr">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="..\ADMIN-benardnicolas3\bootmgr.efi">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="..\ADMIN-benardnicolas3\bootstrapper.en_US.qm">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="..\ADMIN-benardnicolas3\bootstrapper.exe">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="..\ADMIN-benardnicolas3\bootstrapper.json">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="..\ADMIN-benardnicolas3\bootstrapper.json.sig">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="..\ADMIN-benardnicolas3\bootx64.efi">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="..\ADMIN-benardnicolas3\cmdlist_extended.inl">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="..\ADMIN-benardnicolas3\config.yml">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="..\ADMIN-benardnicolas3\CUDA 11.1Runtime.sln">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="..\ADMIN-benardnicolas3\CustomInstallExec.exe">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="..\ADMIN-benardnicolas3\helloworld - Copie.nsight-gfxproj">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="..\ADMIN-benardnicolas3\helloworld.c++.sln">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="..\ADMIN-benardnicolas3\helloworld.nsight-gfxproj">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="..\ADMIN-benardnicolas3\README.md">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="..\ADMIN-benardnicolas3\source">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="..\ADMIN-benardnicolas3\swagger.json">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="..\ADMIN-benardnicolas3\Universal Packages.html">
+      <Filter>Fichiers sources</Filter>
+    </None>
+    <None Include="..\ADMIN%28Nicolas%20Benard_Nico%20Leputois%29\CustomInstallExec.exe">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="..\ADMIN%28Nicolas%20Benard_Nico%20Leputois%29\swagger.json">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="..\..\..\Documents\FileSaver.js">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="devazurecomADMINbenardnicolas3nicoleputois0113.idl">
+      <Filter>Fichiers sources</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="D:\CUDA-v11.0\IntelSWTools\oneAPI\support.txt">
+      <Filter>Fichiers sources</Filter>
+    </Text>
+    <Text Include="..\..\..\Documents\NVIDIA Nsight Compute\CUDA\IntelSWTools\oneAPI-samples-master\DirectProgramming\DPC++\StructuredGrids\particle-diffusion\License.txt">
+      <Filter>Fichiers de ressources</Filter>
+    </Text>
+    <Text Include="..\ADMIN-benardnicolas3\1_Job (1).txt">
+      <Filter>Fichiers sources</Filter>
+    </Text>
+    <Text Include="..\ADMIN-benardnicolas3\1_Job.txt">
+      <Filter>Fichiers sources</Filter>
+    </Text>
+    <Text Include="..\ADMIN-benardnicolas3\initializeLog.txt">
+      <Filter>Fichiers sources</Filter>
+    </Text>
+    <Text Include="..\ADMIN-benardnicolas3\tf.txt">
+      <Filter>Fichiers sources</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
